@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>d22d21snippets</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>175th</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.3830716,47.7558227,0
+          -122.3677937,47.7558804,0
+          -122.3526875,47.7558804,0
+          -122.3132054,47.7557073,0
+          -122.2796456,47.7558804,0
+          -122.2781865,47.7548418,0
+          -122.2764699,47.755765,0
+          -122.2707192,47.7557073,0
+          -122.2690026,47.7568037,0
+          -122.266771,47.7570922,0
+          -122.2642819,47.7572653,0
+          -122.2632519,47.7562267,0
+          -122.261707,47.756169,0
+          -122.262222,47.7581885,0
+          -122.2616211,47.7596887,0
+          -122.2637669,47.7618235,0
+          -122.2641102,47.767939,0
+          -122.2641961,47.7695543,0
+          -122.2635094,47.7711695,0
+          -122.2617928,47.7722656,0
+          -122.261192,47.7734193,0
+          -122.2613637,47.7753228,0
+          -122.2611062,47.776361,0
+          -122.2602871,47.7779311,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

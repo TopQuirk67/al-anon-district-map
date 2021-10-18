@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>BC Islands 2</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Graham Island</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -129.6852187,53.6467876,0
+          -131.6297988,53.1159883,0
+          -130.8827285,52.0513427,0
+          -131.0255507,51.9126279,0
+          -132.6460341,53.1027983,0
+          -133.2612685,53.9388227,0
+          -133.0470351,54.2833791,0
+          -131.7176894,54.0647404,0
+          -131.6572646,53.1522398,0
+          -129.669735,53.668126,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Victoria Island</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -125.3880543,50.3321112,0
+          -125.4354328,50.3093136,0
+          -124.5455403,49.4313139,0
+          -123.6171955,49.094346,0
+          -123.0788655,48.7840389,0
+          -123.3425373,48.6898452,0
+          -123.2546467,48.4499451,0
+          -123.5512776,48.2893792,0
+          -125.3640217,48.755075,0
+          -128.5610432,50.7979237,0
+          -127.9348225,50.9642824,0
+          -125.4958577,50.3373706,0
+          -125.4422993,50.3557741,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

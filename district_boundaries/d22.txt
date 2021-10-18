@@ -1,0 +1,8 @@
+District 22 boundaries are as follows:
+West:	Puget Sound
+South:	175th, from Puget Sound to Lake Washington to 61st in King County
+East:	61st in King County (becomes Locust Way in Snohomish County), to I-405,
+	to I-5 North to 148th
+North:	148th, from I-5 to Puget Sound
+(Revised at Pre-Con 2012)
+
