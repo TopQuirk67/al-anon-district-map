@@ -3,7 +3,7 @@ import os.path
 from os import path
 import glob
 
-ROOT_DIRECTORY = '/Users/gary/play/Al-Anon Map Project/'
+ROOT_DIRECTORY = '/Users/garethhouk/Documents/play/Al-Anon Map Project/'
 
 FILE_KML_HEADER = '''<?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
@@ -63,7 +63,9 @@ def get_district_color(district: str) -> int:
 
 all_district_coordinates = get_all_coordinates_files()
 
-with open(ROOT_DIRECTORY+'all_districts.kml','w+') as f:
+output_file = ROOT_DIRECTORY+'all_districts.kml'
+print(f"Writing file {output_file}")
+with open(output_file,'w+') as f:
     f.write(FILE_KML_HEADER)
     for district_coordinate_file in all_district_coordinates:
         str_dist = get_district_string(district_coordinate_file)
